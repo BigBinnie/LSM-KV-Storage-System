@@ -103,7 +103,7 @@
 
   - 结果（单位为秒）
 
-    ![图片1](/Users/yaobinwei/Downloads/图片1.png)
+    ![图片1](./图片1.png)
 
     1、2、3分布代指Put、Get和Delete操作，time1反映了在memtable中操作的时延，time2反映了同时在memtable和sstable进行操作的时延
 
@@ -116,7 +116,7 @@
 
   通过插入1024*64组数据测试吞吐量的变化情况
 
-  ![吞吐量](/Users/yaobinwei/Downloads/吞吐量.jpg)
+  ![吞吐量](./吞吐量.jpg)
 
   ​											蓝色曲线反映了吞吐量的变化，红色反映了compaction的次数
 
